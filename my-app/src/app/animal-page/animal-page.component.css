@@ -1,0 +1,7 @@
+.male {
+  background-color: #ccc; /* cinza para animais machos */
+}
+
+.female {
+  background-color: #007bff; /* azul para animais fêmeas */
+}

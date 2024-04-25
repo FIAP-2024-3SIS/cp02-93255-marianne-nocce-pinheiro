@@ -1,0 +1,12 @@
+<div *ngFor="let animal of animals">
+  <div *ngIf="animal.sexo == 'macho'" class="male">
+    <app-animal-item [animal]="animal" >
+    </app-animal-item>
+  </div>
+
+  <div *ngIf="animal.sexo == 'femea'" class="female">
+    <app-animal-item [animal]="animal" >
+    </app-animal-item>
+  </div>
+
+</div>
